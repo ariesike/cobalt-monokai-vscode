@@ -1,0 +1,31 @@
+{
+  "name": "cobalt-monokai",
+  "displayName": "Cobalt Monokai Theme",
+  "description": "cobalt + monokai",
+  "publisher": "ariesike",
+  "version": "1.0.0",
+  "icon": "images/cobalt_monokai_logo.png",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt-monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cobalt-monokai-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.1.1",
+    "vsce": "^2.15.0"
+  }
+}
